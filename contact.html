@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>お問い合わせ | サイト名</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="home.html">ホーム</a></li>
+				<li><a href="about.html">概要</a></li>
+				<li><a href="services.html">サービス</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="contact">
+		<div class="container">
+			<h2>お問い合わせ</h2>
+			<form action="#" method="POST">
+				<div class="form-group">
+					<label for="name">お名前</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label for="email">メールアドレス</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label for="message">お問い合わせ内容</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+				<button type="submit" class="cta-button">送信する</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 サイト名</p>
+	</footer>
+</body>
+</html>
