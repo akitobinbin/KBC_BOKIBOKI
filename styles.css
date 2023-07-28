@@ -70,7 +70,7 @@ nav a:hover {
 	background-image: url("images/R.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 50vh;
+	height: 20vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
