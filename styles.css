@@ -180,54 +180,6 @@ button:hover {
 	background-color: #0056b3;
 }
 
-/* ページ固有のスタイル */
-.contact {
-	background-color: #f9f9f9;
-}
-
-.contact h2 {
-	margin-bottom: 1.5rem;
-}
-/* 共通のスタイル */
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 2rem;
-}
-
-/* ページ固有のスタイル */
-.index h2 {
-	margin-bottom: 1.5rem;
-}
-/* 共通のスタイル */
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 2rem;
-}
-
-.service {
-	margin-bottom: 1.5rem;
-}
-
-.service h3 {
-	margin-bottom: 0.5rem;
-	font-weight: bold;
-}
-
-/* ページ固有のスタイル */
-.services h2 {
-	margin-bottom: 1.5rem;
-}
-
-/* デフォルトテーマのスタイル */
-body {
-	background-color: #f9f9f9;
-	color: #333;
-}
-
-/* ダークテーマのスタイル */
-body.dark {
-	background-color: #333;
-	color: #f9f9f9;
-}
+.image-vw {
+	width : 50vw ; 
+  }
