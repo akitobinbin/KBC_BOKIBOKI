@@ -13,7 +13,6 @@ body {
 	color: #333;
 }
 .slide-in {
-	position: absolute;
 	top: 50%;
 	left: -100%;
 	transform: translateY(-50%);
