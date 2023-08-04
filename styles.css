@@ -14,7 +14,7 @@ body {
 }
 .slide-in {
 	position: absolute;
-	top: -100%;
+	top: -100px; /* スライドイン開始位置 */
 	left: 50%;
 	transform: translateX(-50%);
 	white-space: nowrap;
@@ -24,10 +24,11 @@ body {
   
   @keyframes slideIn {
 	to {
-	  top: 50%;
-	  transform: translateX(-50%) translateY(-50%);
+	  top: 50px; /* スライドイン後の位置 */
+	  transform: translateX(-50%) translateY(0);
 	}
   }
+  
 
 h1, h2, h3 {
 	font-weight: bold;
