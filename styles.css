@@ -13,18 +13,19 @@ body {
 	color: #333;
 }
 .slide-in {
-	top: 50%;
-	left: -100%;
-	transform: translateY(-50%);
+	position: absolute;
+	top: -100%;
+	left: 50%;
+	transform: translateX(-50%);
 	white-space: nowrap;
 	font-size: 24px;
 	animation: slideIn 2s forwards;
   }
-
+  
   @keyframes slideIn {
 	to {
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	  top: 50%;
+	  transform: translateX(-50%) translateY(-50%);
 	}
   }
 
