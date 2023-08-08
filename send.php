@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
 
     // 送信後、ユーザーを別のページにリダイレクトさせるなどの処理を追加することもできます。
-    header("Location: thank_you_page.html");
+    header("Location: contact.html");
     exit;
 }
 ?>
